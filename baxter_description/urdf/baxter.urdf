@@ -507,7 +507,7 @@
   
   <link name="right_gripper_l_finger">
     <visual>
-      <origin rpy="0 -1.57079632679 0" xyz="0.007 -0.036 -0.0135" />
+      <origin rpy="1.5707963267948966 0 1.57079632679" xyz="0.007 -0.036 -0.0135" />
       <geometry>
         <mesh filename="package://baxter_description/meshes/electric_gripper/fingers/00030518.dae" /> 
       </geometry>
@@ -528,7 +528,7 @@
   
   <link name="right_gripper_r_finger">
     <visual>
-      <origin rpy="0 0 0" xyz="0.007 -0.036 0.0135" />
+      <origin rpy="1.5707963267948966 0 -1.57079632679" xyz="0.007 -0.066 0.05" />
       <geometry>
         <mesh filename="package://baxter_description/meshes/electric_gripper/fingers/00030518.dae" /> 
       </geometry>
@@ -844,7 +844,7 @@
   
   <link name="left_gripper_l_finger">
     <visual>
-      <origin rpy="0 -1.57079632679 0" xyz="0.007 -0.036 -0.0135" />
+      <origin rpy="1.57079632679 0 1.57079632679" xyz="0.007 -0.036 -0.0135" />
       <geometry>
         <mesh filename="package://baxter_description/meshes/electric_gripper/fingers/00030518.dae" /> 
       </geometry>
@@ -865,7 +865,7 @@
   
   <link name="left_gripper_r_finger">
     <visual>
-      <origin rpy="0 0 0" xyz="0.007 -0.036 0.0135" />
+      <origin rpy="1.57079632679 0 -1.57079632679 " xyz="0.007 -0.066 0.05" />
       <geometry>
         <mesh filename="package://baxter_description/meshes/electric_gripper/fingers/00030518.dae" /> 
       </geometry>
