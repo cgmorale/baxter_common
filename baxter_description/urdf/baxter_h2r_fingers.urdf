@@ -505,7 +505,7 @@
    
 
   
-<!--  <link name="right_gripper_l_finger">
+  <link name="right_gripper_l_finger">
     <visual>
       <origin rpy="0 -1.57079632679 0" xyz="0.007 -0.036 -0.0135" />
       <geometry>
@@ -545,7 +545,6 @@
       <inertia ixx="1e-08" ixy="0" ixz="0" iyy="1e-08" iyz="0" izz="1e-08" />
     </inertial>
   </link>
--->
 
   <link name="left_arm_mount">
     <inertial>
@@ -843,7 +842,6 @@
    
 
   
-<!-- stefie10 removing to try rethink's joint controller
   <link name="left_gripper_l_finger">
     <visual>
       <origin rpy="0 -1.57079632679 0" xyz="0.007 -0.036 -0.0135" />
@@ -884,7 +882,7 @@
       <inertia ixx="2e-08" ixy="0" ixz="0" iyy="3e-08" iyz="0" izz="2e-08" />
     </inertial>
   </link>
--->
+
   <joint name="collision_head_1" type="fixed">
     <origin rpy="0 0 0" xyz="0.11 0 0.75" />
     <parent link="base" />
@@ -1070,7 +1068,7 @@
     <child link="right_gripper" />
   </joint>
 
-<!--    
+  
   <joint name="right_gripper_l_finger_joint" type="prismatic">
     <origin rpy="0 0 0" xyz="0.0 0.06 0.035" />
     <axis xyz="0 0 1" />
@@ -1080,7 +1078,7 @@
     <dynamics damping="0.7" friction="0.0" />
   </joint>
 
-
+  
   <joint name="right_gripper_r_finger_joint" type="prismatic">
     <origin rpy="0 0 0" xyz="0.0 0.06 -0.035" />
     <axis xyz="0 0 1" />
@@ -1090,7 +1088,7 @@
     <dynamics damping="0.7" friction="0.0" />
     <mimic joint="right_gripper_l_finger_joint" multiplier="-1" offset="0" />
   </joint>
--->
+
   
   <joint name="left_torso_arm_mount" type="fixed">
     <origin rpy="0 0 0.7854" xyz="0.024645 0.219645 0.118588" />
@@ -1207,7 +1205,7 @@
     <child link="left_gripper" />
   </joint>
 
-<!-- stefie10 removing to try rethink's thing.  
+  
   <joint name="left_gripper_l_finger_joint" type="prismatic">
     <origin rpy="0 0 0" xyz="0.0 0.06 0.035" />
     <axis xyz="0 0 1" />
@@ -1228,7 +1226,7 @@
     <mimic joint="left_gripper_l_finger_joint" multiplier="-1" offset="0" />
   </joint>
 
--->  
+  
 
   
   </robot>
